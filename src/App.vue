@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <div class="row">
       <div class="col s12">
-        <h1>My app</h1>
+        <h1>Vue Todos App</h1>
       </div>
     </div>
     <div class="row">
@@ -36,7 +36,7 @@ export default {
     addTodo() {
       this.todos.push({
         id: this.todos.length + 1,
-        text: this.newTodo,
+        title: this.newTodo,
         completed: false
       });
 
